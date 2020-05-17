@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <h1>Hi,I am react</h1>
       <p>This is really working!!! </p>
-      <Person />
+      <Person name="max" age="28" />
+      <Person name="sanu" age="18" />
+      <Person name="neha" age="22" />
     </div>
   );
   // return React.createElement(
